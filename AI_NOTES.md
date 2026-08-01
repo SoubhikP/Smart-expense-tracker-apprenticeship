@@ -22,18 +22,18 @@ is how it was used and verified.
 
 ## 2. What I validated, tested, or changed, and why
 
-- [FILL IN — describe running `pytest` yourself on a clean checkout, and
+- Describe running `pytest` yourself on a clean checkout, and
   whether all tests passed. Example: "I ran `pytest` after cloning to a
   fresh folder and all 10 tests passed."]
-- [FILL IN — describe manually testing the API, e.g. using the `/docs`
+- Describe manually testing the API, e.g. using the `/docs`
   Swagger UI or `curl`, to add an expense, filter by category, check the
   total, and delete an expense — and confirm the responses matched what
   was expected.]
-- [FILL IN — any edge case you specifically checked, e.g. "I tested
+- Any edge case you specifically checked, e.g. "I tested
   adding an expense with a negative amount and confirmed the API
   correctly rejects it with a 422 error, since `amount` is required to
   be greater than 0."]
-- [FILL IN — any change you made to AI-generated code after reviewing it,
+- Any change you made to AI-generated code after reviewing it,
   even something small, e.g. renaming a variable, adjusting an error
   message, or changing the JSON file name.]
 
