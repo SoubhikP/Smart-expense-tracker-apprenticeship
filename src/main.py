@@ -28,7 +28,7 @@ app = FastAPI(
 @app.get("/", tags=["Health"])
 def root():
     """Basic health check / welcome route."""
-    return {"message": "Smart Expense Tracker API is running. Visit /docs for API docs."}
+    return {"message": "Welcome! Smart Expense Tracker API is up and running. Head to /docs to explore the endpoints."}
 
 
 @app.post("/expenses", response_model=Expense, status_code=201, tags=["Expenses"])
